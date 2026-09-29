@@ -1,0 +1,71 @@
+{
+  "city": "nashville-safety",
+  "name": "Nashville Road Safety — Enforcement, Deaths, Crime",
+  "case": "nashville-road-safety",
+  "case_label": "Nashville traffic enforcement collapse and pedestrian death surge 2008–2026",
+  "lenses": [
+    {
+      "id": "enforcement-collapse",
+      "label": "Enforcement collapse",
+      "queries": [
+        "traffic stop", "vehicle stop", "stop", "enforcement", "citation",
+        "Form 252", "445143", "25679", "298583", "31520",
+        "Driving While Black", "Policing Project", "racial disparity"
+      ]
+    },
+    {
+      "id": "pedestrian-deaths",
+      "label": "Pedestrian deaths",
+      "queries": [
+        "pedestrian", "fatal", "fatality", "killed while walking",
+        "all-time high", "49", "39", "hit and run", "hit-and-run"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure & road design",
+      "queries": [
+        "arterial", "state route", "sidewalk", "crossing", "infrastructure",
+        "speed limit", "four lanes", "safe crossing", "road design"
+      ]
+    },
+    {
+      "id": "de-policing-literature",
+      "label": "De-policing literature",
+      "queries": [
+        "de-policing", "Ferguson effect", "halo effect", "enforcement absence",
+        "Fayetteville", "Barbos", "Fliss", "Stanojevic", "Shjarback", "Boehme", "Nix",
+        "sustained enforcement", "culture change"
+      ]
+    },
+    {
+      "id": "crime-baseline",
+      "label": "Crime baseline",
+      "queries": [
+        "homicide", "violent crime", "aggravated assault", "UCR", "Part I",
+        "robbery", "rape", "crime rate", "per 100k"
+      ]
+    },
+    {
+      "id": "official-statements",
+      "label": "Official statements",
+      "queries": [
+        "Chief Anderson", "Don Aaron", "John Drake", "Toombs", "Eslick",
+        "morally disingenuous", "Policing Project", "training rewrite",
+        "mass traffic enforcement", "Resolution 2024-873"
+      ]
+    },
+    {
+      "id": "gun-autonomy",
+      "label": "Gun rights & permitless carry",
+      "queries": [
+        "HB0786", "permitless carry", "concealed carry", "CCW",
+        "duty to inform", "officer-involved shooting", "Doucette"
+      ]
+    }
+  ],
+  "metrics": {
+    "data_files": ["data/nashfatalcrash.csv", "data/sources.json"],
+    "anchor_files": ["spn-results.json", "anchors.json"]
+  }
+}

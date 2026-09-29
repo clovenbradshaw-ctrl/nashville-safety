@@ -1,0 +1,29 @@
+Source: Walk Bike Nashville — pedestrian fatality trend articles
+Organization: Walk Bike Nashville (walkbikenashville.org)
+Retrieved: 2026-09-29
+
+From "2016–2020 Pedestrian Fatality Trends" (published Jan. 27, 2021):
+URL: https://www.walkbikenashville.org/2016_2020_pedestrian_fatality_trends
+"Just ten years ago in 2010 there were 14 people killed while walking. Last year in 2020, Nashville lost 39 pedestrians -- nearly triple the amount."
+
+From "Understanding Pedestrian Crash Trends" (published Dec. 11, 2020):
+URL: https://www.walkbikenashville.org/understanding_pedestrian_crash_trends
+"In 2019, the average speed limit on a road where a pedestrian was killed was 43 mph, a speed at which, if hit, a person has a 90% chance of dying."
+"These crashes are not happening randomly. In fact they can largely be explained by the poor design of our streets."
+"42% of deaths involved crossing outside crosswalks."
+"76% of 2019 pedestrian deaths occurred after dark; 47% of those in poorly-lit or unlit areas."
+
+From Vision Zero 2023 review:
+URL: https://www.walkbikenashville.org/vision_zero_2023
+"59 percent of all fatal crashes occur on just 6 percent of roads."
+"60 percent of fatalities of people walking occur on just 2 percent of roads."
+
+Pedestrian fatality counts (from Walk Bike Nashville / WPLN):
+2008: 13
+2010: 14
+2016: 15
+2018: 22
+2019: 33
+2020: 39
+2021: 39
+2022: 49 (WPLN: "all-time high for pedestrian fatalities")

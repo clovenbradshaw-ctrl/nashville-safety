@@ -1,0 +1,15 @@
+{
+  "title": "MNPD and city officials — stated reasons for traffic stop reduction",
+  "sources": [
+    {"id": "nashvillescene-dwb-2016", "url": "https://www.nashvillescene.com/news/pithinthewind/gideons-army-responds-to-police-chiefs-criticism-of-driving-while-black-report/article_90ba105c-e219-5a7c-b870-bf3196016e92.html", "published": "2016"},
+    {"id": "wpln-policing-project-2018", "url": "https://wpln.org/post/racial-disparities-go-undisputed-by-nashville-police-but-no-promise-made-on-traffic-stop-tactics/", "published": "2018-11"},
+    {"id": "wpln-training-rewrite", "url": "https://wpln.org/post/nashville-police-report-major-drop-in-traffic-stops-following-accusations-of-racial-bias/"},
+    {"id": "nashville-banner-2024-11-18", "url": "https://nashvillebanner.com/2024/11/18/nashville-police-mostly-stopped-pulling-cars-over-but-some-councilmembers-want-to-reverse-the-trend/", "published": "2024-11-18"},
+    {"id": "nashvillescene-council-2025", "url": "https://www.nashvillescene.com/news/pithinthewind/metro-council-traffic-stops-eslick/article_99ea37c8-d915-11ef-8f8c-1b74c1e0a1a9.html"},
+    {"id": "policing-project-pdf", "url": "https://static1.squarespace.com/static/58a33e881b631bc60d4f8b31/t/5bf2d18d562fa747a554f6b0/1542640014294/Policing+Project+Nashville+Report.pdf", "published": "2018-11"}
+  ],
+  "retrieved": "2026-09-29",
+  "extraction": "manual verbatim transcription with dated attribution per statement",
+  "txt_sha256": "199404937eaca404d0f017d45ab6d7e19ce94a4d25d0d98fd57b91a4506abae4",
+  "chars": 6871
+}

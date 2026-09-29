@@ -1,0 +1,11 @@
+{
+  "title": "MNPD Annual Reports — Traffic Fatality Series 2008–2017",
+  "publisher": "Metro Nashville Police Department",
+  "url": "https://www.nashville.gov/departments/police/news-and-reports/reports",
+  "retrieved": "2026-09-29",
+  "coverage": "2008–2017 total traffic fatalities; verbatim sentences from individual annual report PDFs",
+  "extraction": "manual verbatim transcription from PDFs; each sentence attributed to specific report year",
+  "txt_sha256": "b19087e54d60c5f2a6a342ec007a959b6191763b92129d31bf5033ca8328079b",
+  "chars": 3834,
+  "note": "Ground file contains transcribed verbatim sentences, not a full PDF extraction. Anchors will point to individual PDF URLs once archived. Run build-anchors.mjs to populate spn-results.json."
+}

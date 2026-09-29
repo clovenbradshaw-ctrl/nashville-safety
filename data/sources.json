@@ -1,0 +1,549 @@
+{
+  "_meta": {
+    "built": "2026-09-29",
+    "last_updated": "2026-09-29",
+    "purpose": "Nashville road deaths, traffic enforcement, violent crime — falsifiable sources with verbatim citations and eoreader7 snip paths",
+    "coverage": "Road deaths 2008–2026; traffic stops 2012–2022; pedestrian deaths 2010–2022; crime 2016–2023; peer-reviewed enforcement-behavior literature",
+    "reason_specs": [
+      "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/update-claims.json",
+      "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/stanojevic-claims.json",
+      "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/new-research-claims.json",
+      "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-reasons-prose-claims.json",
+      "/tmp/gate-json.json"
+    ],
+    "reason_verdict": "✓ OK — all specs passed, 0 claims convicted",
+    "CRITICAL_DATA_QUALITY_FLAG": "nashfatalcrash.com pedestrian-typed counts are 3–6x LOWER than MNPD-sourced figures (WPLN, Walk Bike Nashville) for the same years. 2020: nashfatalcrash=7 vs MNPD=39. 2022: nashfatalcrash=14 vs MNPD=49. Do NOT cite nashfatalcrash pedestrian-type counts as authoritative — use MNPD annual report / Walk Bike Nashville series. Total fatalities (all modes combined) are broadly consistent across sources."
+  },
+
+  "sources": [
+
+    {
+      "id": "nashfatalcrash-csv",
+      "title": "Nashville Fatal Crash Tracker — full CSV export",
+      "url": "https://www.nashfatalcrash.com/table/fatal",
+      "publisher": "Nashville Vision Zero Advisory Committee / Cycling City, LLC",
+      "retrieved": "2026-09-29",
+      "format": "CSV (1,022 records, downloaded via browser intercept)",
+      "snip_path": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/nashfatalcrash.csv",
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/nashfatalcrash-summary.eoreader7.json",
+      "verbatim_about": "This map visualizes fatal crash data in Nashville, TN from 2017 to the present. While every effort has been made to ensure the accuracy of the data, please note that the information provided may not be entirely precise or complete. It is maintained independently by members of Nashville's Vision Zero Advisory Committee.",
+      "coverage_note": "Begins January 2017. Does not cover pre-2017. Some early records lack MNPD tracking numbers.",
+      "pedestrian_undercounting_flag": "pedestrian-typed counts dramatically lower than MNPD official counts — see _meta CRITICAL flag. Total fatality counts appear reasonably accurate.",
+      "data": {
+        "annual_fatalities_from_csv": {
+          "note": "pedestrian_typed = crash typed 'pedestrian' in nashfatalcrash.com — likely undercounts vs MNPD; use mnpd_pedestrian_actual column where available",
+          "2017": {"fatalities": 73,  "pedestrian_typed": 5,  "bicycle": 0, "motorcycle": 1,  "vehicle": 48, "hit_run_all": 11, "hit_run_ped": 1},
+          "2018": {"fatalities": 80,  "pedestrian_typed": 6,  "bicycle": 0, "motorcycle": 0,  "vehicle": 55, "hit_run_all": 13, "hit_run_ped": 3},
+          "2019": {"fatalities": 105, "pedestrian_typed": 1,  "bicycle": 1, "motorcycle": 0,  "vehicle": 76, "hit_run_all": 13, "hit_run_ped": 0, "flag": "anomalously low — likely data gap AND classification issue"},
+          "2020": {"fatalities": 114, "pedestrian_typed": 7,  "bicycle": 0, "motorcycle": 0,  "vehicle": 73, "hit_run_all": 21, "hit_run_ped": 4, "mnpd_pedestrian_actual": 39},
+          "2021": {"fatalities": 127, "pedestrian_typed": 23, "bicycle": 0, "motorcycle": 0,  "vehicle": 92, "hit_run_all": 14, "hit_run_ped": 9, "mnpd_pedestrian_actual": 39},
+          "2022": {"fatalities": 130, "pedestrian_typed": 14, "bicycle": 1, "motorcycle": 3,  "vehicle": 77, "hit_run_all": 20, "hit_run_ped": 6, "mnpd_pedestrian_actual": 49},
+          "2023": {"fatalities": 136, "pedestrian_typed": 42, "bicycle": 1, "motorcycle": 16, "vehicle": 74, "hit_run_all": 26, "hit_run_ped": 21},
+          "2024": {"fatalities": 116, "pedestrian_typed": 30, "bicycle": 2, "motorcycle": 18, "vehicle": 66, "hit_run_all": 18, "hit_run_ped": 13},
+          "2025": {"fatalities": 116, "pedestrian_typed": 24, "bicycle": 4, "motorcycle": 24, "vehicle": 62, "hit_run_all": 17, "hit_run_ped": 10},
+          "2026": {"fatalities": 87,  "pedestrian_typed": 28, "bicycle": 2, "motorcycle": 15, "vehicle": 42, "hit_run_all": 11, "hit_run_ped": 10, "note": "YTD through 2026-09-27"}
+        },
+        "totals": {
+          "crashes": 1022, "fatalities": 1084,
+          "by_type_nashfatalcrash": {"pedestrian_typed": 321, "bicycle": 12, "motorcycle": 86, "vehicle": 665},
+          "by_roadway": {"state_route": 446, "local": 403, "interstate": 235}
+        },
+        "top_corridors": {"Murfreesboro Pk": 33, "Old Hickory Blvd": 22, "Dickerson Pk": 21, "Bell Rd": 13, "Nolensville Pk": 11},
+        "deaths_by_council_district": {
+          "note": "Total fatalities all crash types; pedestrian_typed uses nashfatalcrash.com classification (undercounts vs MNPD)",
+          "19": {"total": 71, "pedestrian_typed": 20}, "16": {"total": 68, "pedestrian_typed": 17},
+          "2":  {"total": 65, "pedestrian_typed": 11}, "1":  {"total": 61, "pedestrian_typed": 2},
+          "5":  {"total": 52, "pedestrian_typed": 13}, "13": {"total": 52, "pedestrian_typed": 6},
+          "32": {"total": 50, "pedestrian_typed": 5},  "15": {"total": 47, "pedestrian_typed": 5},
+          "3":  {"total": 43, "pedestrian_typed": 7},  "30": {"total": 41, "pedestrian_typed": 7},
+          "17": {"total": 40, "pedestrian_typed": 12}, "33": {"total": 36, "pedestrian_typed": 4},
+          "28": {"total": 33, "pedestrian_typed": 6},  "10": {"total": 33, "pedestrian_typed": 1},
+          "9":  {"total": 33, "pedestrian_typed": 12}, "35": {"total": 32, "pedestrian_typed": 1},
+          "26": {"total": 28, "pedestrian_typed": 1},  "14": {"total": 28, "pedestrian_typed": 6},
+          "7":  {"total": 27, "pedestrian_typed": 10}, "11": {"total": 24, "pedestrian_typed": 1},
+          "21": {"total": 24, "pedestrian_typed": 6},  "12": {"total": 22, "pedestrian_typed": 3},
+          "23": {"total": 20, "pedestrian_typed": 1},  "27": {"total": 18, "pedestrian_typed": 3},
+          "31": {"total": 18, "pedestrian_typed": 1},  "20": {"total": 16, "pedestrian_typed": 2},
+          "8":  {"total": 15, "pedestrian_typed": 1},  "29": {"total": 14, "pedestrian_typed": 6},
+          "34": {"total": 13, "pedestrian_typed": 2},  "6":  {"total": 12, "pedestrian_typed": 3},
+          "4":  {"total": 11, "pedestrian_typed": 1},  "24": {"total": 10, "pedestrian_typed": 2},
+          "25": {"total": 10, "pedestrian_typed": 1},  "18": {"total": 9,  "pedestrian_typed": 1},
+          "22": {"total": 8,  "pedestrian_typed": 0}
+        }
+      }
+    },
+
+    {
+      "id": "mnpd-annual-reports-2008-2017",
+      "title": "MNPD Annual Reports — Traffic Fatality Series 2008–2017",
+      "publisher": "Metro Nashville Police Department",
+      "url_index": "https://www.nashville.gov/departments/police/news-and-reports/reports",
+      "retrieved": "2026-09-29",
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-annual-reports-verbatim.eoreader7.json",
+      "source_text_file": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-annual-reports-verbatim.txt",
+      "verbatim_sentences": {
+        "2008": "In 2008 there were 67 fatal crashes with 72 deaths. [MNPD 2011 Annual Report, comparative table]",
+        "2010": "In 2010, 74 persons died in 70 fatal crashes. [MNPD 2010 Annual Report]",
+        "2011": "Deaths 75, Fatal Crashes 72. [MNPD 2011 Annual Report, traffic fatality table]",
+        "2012": "No 2012 Annual Report PDF on nashville.gov index. Estimated ~67 from 2013 report: 68 deaths at +1.5% from 2012 → 68/1.015 ≈ 67.",
+        "2013": "In 2013, 68 persons died in 64 fatal crashes. [MNPD 2013 Annual Report]",
+        "2014": "In 2014, 64 persons died in 63 fatal crashes, which was a 23-year low and the second lowest total in Metro Government history. [MNPD 2014 Annual Report]",
+        "2015": "In 2015, 75 persons died in 69 fatal crashes. [MNPD 2015 Annual Report]",
+        "2016": "In 2016, 67 persons died in 65 fatal crashes. [MNPD 2016 Annual Report]",
+        "2017": "In 2017, 75 persons died in 74 fatal crashes. [MNPD 2017 Annual Report]"
+      },
+      "data": {
+        "total_traffic_fatalities_by_year": {
+          "2008": 72, "2009": null, "2010": 74, "2011": 75,
+          "2012": {"estimate": 67, "method": "back-calculated from 2013 report"},
+          "2013": 68, "2014": 64, "2015": 75, "2016": 67, "2017": 75
+        }
+      },
+      "notes": [
+        "2012 Annual Report not listed on nashville.gov PDF index",
+        "2014 figure (64) verbatim: second-lowest in Metro Government history, 23-year low",
+        "These are total traffic deaths (all crash types), not pedestrian-specific"
+      ]
+    },
+
+    {
+      "id": "mnpd-pedestrian-series-wpln-wbn",
+      "title": "Nashville Pedestrian Fatalities (MNPD-sourced) — 2010–2022",
+      "sources_combined": [
+        {
+          "publisher": "WPLN News",
+          "title": "Nashville saw record pedestrian deaths in 2022",
+          "url": "https://wpln.org/post/nashville-saw-a-record-number-of-pedestrian-deaths-in-2022-advocates-say-the-city-needs-to-treat-it-as-a-crisis/",
+          "published": "early 2023",
+          "retrieved": "2026-09-29",
+          "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/wpln-pedestrian-2022-verbatim.eoreader7.json",
+          "verbatim": "In 2022, Nashville saw an all-time high for pedestrian fatalities with 49. [...] 49 deaths in 2022 was 25% higher than 39 in 2021."
+        },
+        {
+          "publisher": "Walk Bike Nashville",
+          "url": "https://www.walkbikenashville.org/",
+          "retrieved": "2026-09-29",
+          "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/walk-bike-nashville-verbatim.eoreader7.json",
+          "verbatim": "Just ten years ago in 2010 there were 14 people killed while walking. Last year in 2020, Nashville lost 39 pedestrians."
+        }
+      ],
+      "data": {
+        "pedestrian_fatalities_mnpd_sourced": {
+          "2010": {"count": 14, "source": "Walk Bike Nashville verbatim"},
+          "2016": {"count": 15, "source": "Walk Bike Nashville series"},
+          "2018": {"count": 22, "source": "Walk Bike Nashville series"},
+          "2019": {"count": 33, "source": "Walk Bike Nashville series"},
+          "2020": {"count": 39, "source": "Walk Bike Nashville verbatim"},
+          "2021": {"count": 39, "source": "WPLN verbatim"},
+          "2022": {"count": 49, "source": "WPLN verbatim: 'all-time high'"}
+        },
+        "nashfatalcrash_comparison": {
+          "2020": {"mnpd": 39, "nashfatalcrash_typed": 7,  "gap_factor": 5.6},
+          "2021": {"mnpd": 39, "nashfatalcrash_typed": 23, "gap_factor": 1.7},
+          "2022": {"mnpd": 49, "nashfatalcrash_typed": 14, "gap_factor": 3.5}
+        }
+      }
+    },
+
+    {
+      "id": "mnpd-traffic-stop-volume",
+      "title": "MNPD Traffic Stop Volume — Annual Totals with Verbatim Form 252 Counts",
+      "publisher": "MNPD",
+      "source_url_wpln": "https://wpln.org/post/nashville-police-report-major-drop-in-traffic-stops-following-accusations-of-racial-bias/",
+      "source_url_wkrn": "https://www.wkrn.com/news/local-news/nashville/nashville-traffic-stops-have-drastically-decreased-since-2012-peak/",
+      "dashboard_url": "https://www.nashville.gov/departments/police/data-dashboard/driver-demographics-vehicle-stops-crashes",
+      "form_252_url": "https://www.nashville.gov/departments/police/executive-services/strategic-development/crime-analysis/reports",
+      "er7_snip_wpln": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/wpln-traffic-stops-verbatim.eoreader7.json",
+      "er7_snip_banner": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/nashville-banner-enforcement-verbatim.eoreader7.json",
+      "verbatim_citations": {
+        "form252_2016_count": "MNPD Form 252 (2016): Total vehicle stops = 298,583",
+        "form252_2020_count": "MNPD Form 252 (2020): Total vehicle stops = 31,520",
+        "wkrn_2012_peak": "nearly a 95% decrease from the 2012 peak of 445,143 [WKRN, date: 2023/2024, citing MNPD data]",
+        "wkrn_2022_nadir": "By 2022, stops had dropped to 25,679 [WKRN]",
+        "banner_fatalities_link": "Between 2018 and 2023, traffic fatalities increased by 75 percent as enforcement fell [Nashville Banner, 2024-11-18 — correlation, not controlled study]",
+        "banner_91pct": "traffic stops declined 91% from 2015 to 2023 [Nashville Banner, 2024-11-18]"
+      },
+      "data": {
+        "annual_total_stops": {
+          "2012": {"stops": 445143, "note": "PEAK — WKRN verbatim citing MNPD"},
+          "2016": {"stops": 298583, "note": "verbatim Form 252 PDF"},
+          "2017": {"stops": null,   "note": "unconfirmed; between 298K and 204K"},
+          "2018": {"stops": 204400, "note": "WPLN reporting"},
+          "2019": {"stops": 55667,  "note": "WPLN reporting"},
+          "2020": {"stops": 31520,  "note": "verbatim Form 252 PDF"},
+          "2022": {"stops": 25679,  "note": "NADIR — WKRN verbatim citing MNPD"},
+          "2025": {"note": "+44.7% above 2024 pace (partial year)"}
+        },
+        "pct_reduction_peak_to_nadir": "94.2% (445,143 in 2012 to 25,679 in 2022)",
+        "pct_reduction_2016_to_2020": "89.4% (298,583 to 31,520)",
+        "pct_reduction_2015_to_2023": "91% (Nashville Banner verbatim)"
+      }
+    },
+
+    {
+      "id": "driving-while-black-2016",
+      "title": "Driving While Black: Police and Traffic Stops in Nashville",
+      "publisher": "Gideon's Army",
+      "published": "2016-10-25",
+      "data_coverage": "2011–2015 (~2 million MNPD traffic stop records)",
+      "url": "https://www.scribd.com/document/328892520/Driving-While-Black-Police-and-traffic-stops-in-Nashville",
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/driving-while-black.eoreader7.json",
+      "verbatim_findings": [
+        "MNPD conducted 7.7 times more traffic stops annually than the U.S. national average.",
+        "Stops of Black drivers equaled 112% of the Black population age 16+ in Davidson County.",
+        "Black drivers were 5 times more likely than white drivers to be stopped multiple times in a year.",
+        "Consent searches found incriminating evidence in only approximately 11.6% of cases involving Black drivers."
+      ],
+      "mnpd_response": {
+        "date": "2016-10-25 to 2016-12-06",
+        "chief": "Steve Anderson",
+        "verbatim": "Chief Anderson letter to Metro Council: 'categorically' denied racial profiling; called DWB conclusions 'morally disingenuous'; 'made no apologies for professionally and lawfully working in high crime areas to reduce victimization.'",
+        "source": "Nashville Scene, 2016",
+        "url": "https://www.nashvillescene.com/news/pithinthewind/gideons-army-responds-to-police-chiefs-criticism-of-driving-while-black-report/article_90ba105c-e219-5a7c-b870-bf3196016e92.html",
+        "significance": "Anderson's 2016 response was defensive. No commitment to reduce stops came from this exchange."
+      }
+    },
+
+    {
+      "id": "policing-project-nashville-2018",
+      "title": "Policing Project Nashville Report",
+      "publisher": "The Policing Project at NYU School of Law / Stanford Computational Policy Lab",
+      "published": "2018-11",
+      "data_coverage": "~2017 MNPD stop data",
+      "url": "https://www.policingproject.org/news-main/Nashville-report-released",
+      "pdf_url": "https://static1.squarespace.com/static/58a33e881b631bc60d4f8b31/t/5bf2d18d562fa747a554f6b0/1542640014294/Policing+Project+Nashville+Report.pdf",
+      "key_findings": [
+        "MNPD's high-volume traffic stops in high-crime neighborhoods had no significant effect on crime in the short or long term.",
+        "Per-capita stop rate for Black drivers was 44% higher than for white drivers.",
+        "For non-moving violations, disparity was 68% higher for Black drivers.",
+        "Consent searches yielded no incriminating evidence 88.4% of the time."
+      ],
+      "recommendations": ["Reduce number of traffic stops", "Monitor racial disparities", "Redeploy officer resources toward more effective crime-fighting tools"],
+      "mnpd_response": {
+        "date": "2018-11",
+        "chief": "Steve Anderson",
+        "verbatim": "Anderson released 'lengthy statement' expressing 'appreciation for the work of Professor Friedman and his team.' Police 'offered no direct rebuttal to findings that officers disproportionately stop and search the vehicles of Black drivers.' [WPLN, 2018]",
+        "source_url": "https://wpln.org/post/racial-disparities-go-undisputed-by-nashville-police-but-no-promise-made-on-traffic-stop-tactics/",
+        "policy_change": "MNPD 'completely rewrote its training, with the focus shifting to stopping unsafe driving, not searches.' [WPLN] — training rewrite dated to 2018, no published general order found.",
+        "commission_response_page": "https://www.nashville.gov/departments/police/news-and-reports/policing-project-commission-response"
+      },
+      "retrospective_attribution": {
+        "date": "2024-11-18",
+        "speaker": "MNPD spokesperson Don Aaron",
+        "verbatim": "A Policing Project study concluded that large numbers of stops in high-crime neighborhoods were not impacting crime, and that directing officer resources to more productive strategies could potentially lead to greater crime reduction.",
+        "source": "Nashville Banner",
+        "url": "https://nashvillebanner.com/2024/11/18/nashville-police-mostly-stopped-pulling-cars-over-but-some-councilmembers-want-to-reverse-the-trend/",
+        "significance": "Clearest official causal attribution of the stop reduction to the Policing Project — came retrospectively in 2024, not from any chief in real time during the reduction years."
+      }
+    },
+
+    {
+      "id": "council-resolution-2024-873",
+      "title": "Metro Council Resolution 2024-873 — Traffic Enforcement Debate",
+      "publisher": "Metro Nashville Council",
+      "date": "late 2024 / early 2025",
+      "sources": [
+        {"url": "https://www.nashvillescene.com/news/pithinthewind/metro-council-traffic-stops-eslick/article_99ea37c8-d915-11ef-8f8c-1b74c1e0a1a9.html", "publisher": "Nashville Scene", "date": "2025"},
+        {"url": "https://www.wkrn.com/news/local-news/nashville/metro-council-passes-amended-version-of-traffic-enforcement-resolution/", "publisher": "WKRN"}
+      ],
+      "verbatim_toombs_substitute": "Councilmember Kyonzté Toombs: minority caucus 'concerned about returning to a police strategy of mass traffic enforcement'; called to 'avoid returning to the biased enforcement highlighted' by the Driving While Black report.",
+      "outcome": "Toombs substitute resolution passed, urging focus on reckless driving, DUI, speeding, distracted driving while avoiding return to mass stops.",
+      "significance": "Council debate is the clearest official record of the enforcement/fatality tension — both sides named simultaneously by elected officials."
+    },
+
+    {
+      "id": "mnpd-ucr-crime-2016-2023",
+      "title": "MNPD UCR Part I Crime Statistics 1963–2023",
+      "publisher": "Metro Nashville Police Department, Crime Analysis Section",
+      "published": "2024-07",
+      "url": "https://www.nashville.gov/sites/default/files/2025-07/UCR1963-2023ByPopulation.pdf?ct=1752592589",
+      "secondary_source": {
+        "title": "Annual Criminal Justice Trends 2014–2023",
+        "publisher": "Criminal Justice Planning Division",
+        "published": "2024-08",
+        "url": "https://www.nashville.gov/sites/default/files/2024-08/Criminal-Justice-Trends-2023.pdf?ct=1724767202"
+      },
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-ucr-crime.eoreader7.json",
+      "verbatim_source_note": "UCR Part I Offenses are derived from Metropolitan Police Department's Incident Based Reporting System in accordance with UCR definitions and guidelines established by the FBI. 2023 counts are sourced from MNPD ARMS on 7/17/2024.",
+      "data": {
+        "raw_offense_counts": {
+          "2016": {"violent_crime": 7592, "homicide": 83,  "rape": 566, "robbery": 2009, "agg_assault": 4934, "total_crime_index": 32698},
+          "2017": {"violent_crime": 7813, "homicide": 111, "rape": 568, "robbery": 2062, "agg_assault": 5072, "total_crime_index": 33848},
+          "2018": {"violent_crime": 7816, "homicide": 89,  "rape": 576, "robbery": 2129, "agg_assault": 5022, "total_crime_index": 35614},
+          "2019": {"violent_crime": 7583, "homicide": 84,  "rape": 519, "robbery": 1994, "agg_assault": 4986, "total_crime_index": 35819},
+          "2020": {"violent_crime": 8247, "homicide": 114, "rape": 482, "robbery": 1797, "agg_assault": 5854, "total_crime_index": 37072},
+          "2021": {"violent_crime": 8583, "homicide": 102, "rape": 527, "robbery": 1643, "agg_assault": 6309, "total_crime_index": 34302, "flag": "NIBRS implementation may inflate assault count"},
+          "2022": {"violent_crime": 9060, "homicide": 110, "rape": 523, "robbery": 1464, "agg_assault": 6963, "total_crime_index": 36644},
+          "2023": {"violent_crime": 8909, "homicide": 103, "rape": 537, "robbery": 1307, "agg_assault": 6962, "total_crime_index": 40730}
+        },
+        "rates_per_100k": {
+          "2016": {"violent_crime": 1142.7, "homicide": 12.5, "agg_assault": 742.6},
+          "2017": {"violent_crime": 1161.8, "homicide": 16.5, "agg_assault": 754.2},
+          "2018": {"violent_crime": 1150.1, "homicide": 13.1, "agg_assault": 739.0},
+          "2019": {"violent_crime": 1105.2, "homicide": 12.2, "agg_assault": 726.7},
+          "2020": {"violent_crime": 1190.0, "homicide": 16.5, "agg_assault": 844.7},
+          "2021": {"violent_crime": 1243.2, "homicide": 14.8, "agg_assault": 913.8},
+          "2022": {"violent_crime": 1300.1, "homicide": 15.8, "agg_assault": 999.2},
+          "2023": {"violent_crime": 1270.8, "homicide": 14.7, "agg_assault": 993.0}
+        }
+      },
+      "methodology_flags": [
+        "2021 agg assault spike partially attributable to NIBRS reporting change",
+        "2024 and 2025 not yet in confirmed annual UCR table"
+      ]
+    },
+
+    {
+      "id": "stanojevic-2013-enforcement-behavior",
+      "title": "Influence of traffic enforcement on the attitudes and behavior of drivers",
+      "authors": "Predrag Stanojević, Dragan Jovanović, Timo Lajunen",
+      "journal": "Accident Analysis & Prevention",
+      "volume": 52, "pages": "29-38",
+      "doi": "10.1016/j.aap.2012.12.019",
+      "published": "2013-03-28",
+      "peer_reviewed": true, "citations_scopus": 120,
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/stanojevic-2013-enforcement.eoreader7.json",
+      "source_text_file": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/stanojevic-2013-enforcement.txt",
+      "verbatim_key_passages": {
+        "halo_effect_duration": "Elliott and Broughton (2005) argued that the halo effect of police presence on driving speeds may last as little as 1 hour or as long as 8 weeks after the police activity has ceased.",
+        "nashville_1978": "During 1978, the Nashville traffic police force had intensified enforcement activity for two months, but the members of it subsequently went on a short-term slow-down strike. Carr et al. (1980) report the results from that natural experiment. Examination of traffic accident data found that there were no changes in either the frequency of accidents that were reported or in the distribution of accident types involving property damage, personal injury, or fatalities.",
+        "short_vs_long_term": "In both Finland and Nashville, the special conditions with lacking traffic law enforcement lasted for relatively short periods of time and, thus, could not have effect on drivers' values and traffic culture. In Northern Kosovo, however, the long-term absence of law enforcement may truly change the manner in which people drive, and even their attitudes toward road safety.",
+        "sustained_enforcement": "some well-implemented and sustained enforcement efforts have led to significant safety gains resulting to an improvement of 25% (according to Zaidel, 2002)"
+      },
+      "relevance_to_nashville": {
+        "key_distinction": "The 1978 Nashville experiment (weeks-long lapse, no crash change) vs the 2016–2022 collapse (6+ years, 94% reduction) are categorically different by this paper's own framework. The 1978 result is evidence FOR the current hypothesis: it demonstrates the mechanism requires sustained presence, which Nashville then removed.",
+        "predicted_lag": "Culture shift from sustained enforcement absence requires years. The 1–3 year lag between MNPD's deepest cuts (2019-2020) and pedestrian death peak (2021-2023) is consistent with this mechanism."
+      }
+    },
+
+    {
+      "id": "barbos-2025-de-policing-crashes",
+      "title": "De-policing and fatal traffic crashes",
+      "authors": "Andrei Barbos",
+      "journal": "Economics Letters",
+      "volume": 250,
+      "doi": "https://doi.org/10.1016/j.econlet.2025.112284",
+      "published": "2025-04",
+      "peer_reviewed": true,
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/enforcement-lag-research.eoreader7.json",
+      "verbatim": "an impact of de-policing on fatal traffic crashes around the time of the first instances of such high-profile police killings from 2014, and then a much larger effect after 2020",
+      "design": "Natural experiment using high-profile police killings as exogenous shocks to enforcement levels",
+      "relevance": "Closest empirical analogue: sustained enforcement drop following racial-bias pressure → increased fatal crashes. Directly mirrors Nashville's causal chain."
+    },
+
+    {
+      "id": "fliss-2020-fayetteville-stops",
+      "title": "Re-prioritizing traffic stops to reduce motor vehicle crash outcomes and racial disparities",
+      "authors": "Fliss, Baumgartner, Delamater, Marshall, Poole, Robinson",
+      "journal": "Injury Epidemiology",
+      "volume": 7,
+      "doi": "https://doi.org/10.1186/s40621-019-0227-6",
+      "published": "2020-01",
+      "peer_reviewed": true,
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/enforcement-lag-research.eoreader7.json",
+      "key_finding": "Fayetteville NC shifted from investigatory to safety-focused stops: traffic fatalities fell 28%, injurious crashes fell 23%, total crashes fell 13%.",
+      "relevance": "Inverse experiment — shifting AWAY from investigatory stops (MNPD's direction) predicts the opposite. Fayetteville is the control arm."
+    },
+
+    {
+      "id": "nhtsa-ghsa-national-pedestrian-trend",
+      "title": "National Pedestrian Fatality Trends 2015–2023",
+      "sources": [
+        {"publisher": "NHTSA", "title": "Pedestrians: 2024 Data, Traffic Safety Facts", "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813818"},
+        {"publisher": "GHSA", "title": "Pedestrian Traffic Fatalities by State: 2023 Preliminary Data", "url": "https://www.ghsa.org/sites/default/files/2024-11/2023%20Pedestrian%20Traffic%20Fatalities%20by%20State.pdf", "published": "2024-11"}
+      ],
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/enforcement-lag-research.eoreader7.json",
+      "data": {
+        "national_pedestrian_deaths_2015": 5494,
+        "national_pedestrian_deaths_2022": 7593,
+        "national_pct_increase_2015_2022": "38%",
+        "national_rate_per_100k_2013": 1.55,
+        "national_rate_per_100k_2022": 2.33,
+        "nashville_pedestrian_deaths_2016": 17,
+        "nashville_pedestrian_deaths_2022": 49,
+        "nashville_pct_increase_2016_2022": "188%"
+      },
+      "key_comparison": "Nashville 188% increase vs national 29% increase (using 2016-2022 GHSA/Walk Bike Nashville figures). Nashville's surge far outpaces national trend — a Nashville-specific explanation is required.",
+      "falsification_value": "Definitively rules out 'just a national trend' as sufficient explanation for Nashville's pedestrian death surge."
+    },
+
+    {
+      "id": "safetrec-aaa-hit-and-run-deterrence",
+      "title": "Hit-and-Run Deterrence: Certainty of Detection, Not Severity of Punishment",
+      "sources": [
+        {"publisher": "SafeTREC Berkeley", "title": "On the Legal Deterrence of Pedestrian Hit-and-Run Collisions", "url": "https://safetrec.berkeley.edu/publications/legal-deterrence-pedestrian-hit-and-run-collisions"},
+        {"publisher": "AAA Foundation", "title": "Hit-and-Run Crashes: Prevalence, Contributing Factors and Countermeasures", "url": "https://aaafoundation.org/wp-content/uploads/2018/04/18-0058_Hit-and-Run-Brief_FINALv2.pdf", "published": "2018"},
+        {"publisher": "AAA Foundation", "title": "Fatal Hit-and-Run Crashes Reach Record High", "url": "https://newsroom.aaa.com/2026/03/fatal-hit-and-run-crashes-reach-record-high-aaa-foundation-study-finds/", "published": "2026-03"}
+      ],
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/enforcement-lag-research.eoreader7.json",
+      "verbatim": "Drivers are less likely to flee if they believe detection is probable. [Berkeley SafeTREC]",
+      "national_stat_2023": "Hit-and-runs represented 15% of all police-reported crashes nationally by 2023 — highest share recorded [AAA Foundation 2026]",
+      "mechanism_link": "Reduced patrol presence lowers perceived detection probability → raises flight risk. Directly explains Nashville's 21x hit-and-run pedestrian increase (1 in 2017 → 21 in 2023) as an enforcement-specific signal.",
+      "nashville_hit_run_ped": {"2017": 1, "2018": 3, "2019": 0, "2020": 4, "2021": 9, "2022": 6, "2023": 21, "2024": 13, "2025": 10}
+    },
+
+    {
+      "id": "walk-bike-nashville-infrastructure",
+      "title": "Walk Bike Nashville — Infrastructure Deficit and Impossible Crossings",
+      "publisher": "Walk Bike Nashville",
+      "urls": {
+        "impossible_crossings": "https://www.walkbikenashville.org/impossible_crossings",
+        "vision_zero_2023": "https://www.walkbikenashville.org/vision_zero_2023",
+        "2016_2020_trends": "https://www.walkbikenashville.org/2016_2020_pedestrian_fatality_trends"
+      },
+      "retrieved": "2026-09-29",
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/nashville-competing-explanations.eoreader7.json",
+      "verbatim_80pct": "80% of all pedestrians killed in Nashville are killed on state-controlled arterial streets with four or more lanes, speed limits over 30 mph and few safe pedestrian crossings.",
+      "verbatim_sidewalk_deficit": "the city is seventy years behind on building sidewalks because as residential development sprawled outwards post-WWII, the city was designed for cars instead of people.",
+      "additional_sources": [
+        {"publisher": "TDOT", "title": "2023 Vulnerable Road User Safety Assessment", "date": "2023-11", "url": "https://www.tn.gov/content/dam/tn/tdot/strategic/TDOT%202023%20VRU%20Safety%20Assessment%20Final%20w%20Appendix%2011-15-2023.pdf", "key_finding": "fatal and serious injury pedestrian and cyclist crashes increased by over 44% and 18%, respectively, from 2018 to 2022"},
+        {"publisher": "Metro Nashville", "title": "Internal Audit of Sidewalk Prioritization", "date": "2024-05", "url": "https://www.nashville.gov/sites/default/files/2024-05/IA-Report-Sidewalk-Prioritization-240516.pdf"},
+        {"publisher": "WKRN", "title": "Expert on road design and traffic stops", "date": "2023-2024", "url": "https://www.wkrn.com/news/local-news/nashville/expert-says-road-design-fewer-traffic-stops-contribute-to-nashville-road-deaths/", "verbatim": "road design on Nashville's major pikes has 'minimal interruptions allowing people to gain speeds quickly'"}
+      ],
+      "competing_explanation_assessment": "Infrastructure deficits predate both the enforcement collapse AND the death surge. They set the conditions; the enforcement collapse may have removed the last active deterrent on those exact streets. An expert quoted by WKRN frames both as 'complementary, not competing' causes."
+    },
+
+    {
+      "id": "doucette-2022-permitless-carry-ois",
+      "title": "Officer-Involved Shootings and Concealed Carry Weapons Permitting Laws: Analysis of Gun Violence Archive Data, 2014-2020",
+      "authors": "Doucette, Ward, McCourt, Webster, Crifasi",
+      "journal": "Journal of Urban Health (Springer)",
+      "doi": "https://link.springer.com/article/10.1007/s11524-022-00627-5",
+      "published": "2022",
+      "peer_reviewed": true,
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/gun-autonomy-enforcement-research.eoreader7.json",
+      "verbatim": "Permitless CCW adopting states saw a 12.9% increase in officer-involved shooting victimization rate, or an additional 4 OIS victimizations per year, compared to what would have happened had law adoption not occurred.",
+      "design": "Quasi-experimental, 10 states loosened carry permitting 2014-2020 vs 26 states that retained requirements.",
+      "tennessee_context": {
+        "law": "Tennessee HB0786, 112th GA",
+        "signed": "2021-04",
+        "effective": "2021-07-01",
+        "effect": "Removes permit requirement for most adults to carry a loaded handgun, open or concealed.",
+        "no_duty_to_inform": "Tennessee has NO statutory duty to inform a law enforcement officer that you are armed during a traffic stop.",
+        "law_enforcement_opposition": "Tennessee Sheriff's Association, TBI, Tennessee Chiefs of Police all formally opposed.",
+        "opposition_verbatim": "Without the permit requirement, law enforcement has no way of differentiating between citizens lawfully carrying guns and people carrying guns who are prohibited from doing so by law. [Tennessee Lookout, 2021-03-17]",
+        "gap": "No published study measures Nashville traffic stop volume specifically before/after July 1, 2021.",
+        "hypothesis": "Post-July 2021, officers already pulling back under DWB-reform pressure faced a second deterrent to discretionary stops from ambient firearm uncertainty."
+      }
+    },
+
+    {
+      "id": "de-policing-peer-reviewed",
+      "title": "De-Policing Literature — Ferguson Effect, LAPD, Denver",
+      "sources": [
+        {
+          "id": "shjarback-2017-ferguson-missouri",
+          "title": "De-policing and crime in the wake of Ferguson: Racialized changes in the quantity and quality of policing among Missouri police departments",
+          "authors": "Shjarback, Pyrooz, Wolfe, Decker",
+          "journal": "Journal of Criminal Justice", "volume": 50, "pages": "42-52",
+          "doi": "https://doi.org/10.1016/j.jcrimjus.2017.04.003",
+          "published": "2017",
+          "peer_reviewed": true,
+          "key_finding": "~67,000 fewer stops in 2015 vs 2014 across 118 Missouri departments after Ferguson. Declines amplified in predominantly Black jurisdictions."
+        },
+        {
+          "id": "boehme-2024-lapd-depolicing",
+          "title": "The effect of formal de-policing on police traffic stop behavior and crime: Early evidence from LAPD's policy to restrict discretionary traffic stops",
+          "authors": "Boehme, Mourtgos",
+          "journal": "Criminology & Public Policy", "volume": 23, "pages": "517-542",
+          "doi": "https://doi.org/10.1111/1745-9133.12673",
+          "published": "2024",
+          "peer_reviewed": true,
+          "key_finding": "After LAPD prohibited pretextual stops (2022-03-01), weekly stops fell from ~5,439 to ~3,867. Both violent and property crimes increased post-intervention."
+        },
+        {
+          "id": "nix-2024-denver-depolicing",
+          "title": "When police pull back: Neighborhood-level effects of de-policing on violent and property crime",
+          "authors": "Nix et al.",
+          "journal": "Criminology",
+          "doi": "https://onlinelibrary.wiley.com/doi/10.1111/1745-9125.12363",
+          "published": "2024",
+          "peer_reviewed": true,
+          "key_finding": "Using COVID-19 onset and George Floyd protests as exogenous shocks, reductions in stops and drug arrests associated with significant increases in violent and property crime. Traffic stops specifically: 'officers made notably fewer traffic stops in 2020 — a huge departure from the norm — and the reduction had a much smaller relationship with changes in crime than pedestrian stops.'"
+        }
+      ],
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/gun-autonomy-enforcement-research.eoreader7.json"
+    },
+
+    {
+      "id": "mnpd-stated-reasons",
+      "title": "MNPD and City Officials — Stated Reasons for Traffic Stop Reduction",
+      "er7_snip": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-stated-reasons.eoreader7.json",
+      "source_text_file": "/private/tmp/claude-501/-Users-mlacy-Documents-3-0/ec56cd83-a48f-4daa-a3e4-9ccebaf0b9f7/scratchpad/mnpd-stated-reasons.txt",
+      "timeline": [
+        {"date": "2016-10-25", "event": "Driving While Black report released; Chief Anderson responds defensively, no commitment to reduce stops"},
+        {"date": "2018-11", "event": "Policing Project report released; Anderson appreciative but no direct rebuttal; training rewritten to focus on unsafe driving not searches"},
+        {"date": "2020", "event": "Chief John Drake takes over; stops already down to ~31,520; framing shifts to 'de-escalation and transparency'"},
+        {"date": "2024-11-18", "event": "MNPD spokesperson Don Aaron retrospectively attributes stop reduction to Policing Project findings"},
+        {"date": "2024-2025", "event": "Council Resolution 2024-873 debate; substituted resolution passes urging targeted enforcement while avoiding return to mass stops"}
+      ],
+      "key_gaps": [
+        "No verbatim statement from any chief explicitly saying 'we are reducing stops because of DWB or Policing Project'",
+        "No specific general order or published directive found explicitly deprioritizing stop volume — mechanism was a training rewrite",
+        "No MNPD statement acknowledging connection between reduced stops and increased traffic fatalities",
+        "Policing Project Commission Response page on nashville.gov exists but full text not retrieved"
+      ]
+    }
+  ],
+
+  "jurisdiction_and_spillover": {
+    "research_date": "2026-09-29",
+    "full_report": "/Users/mlacy/Documents/3.0/eoreader7/reports/Nashville traffic enforcement jurisdiction.md",
+    "jurisdiction": {
+      "finding": "CONCURRENT — MNPD and THP both have statutory authority on state arterials inside Nashville. TCA § 4-7-104 gives THP a duty to patrol state highways statewide with no carve-out for city limits. MNPD holds plenary authority countywide. No formal intergovernmental division-of-responsibility agreement found.",
+      "practical_implication": "The 91% MNPD stop decline was MNPD's unilateral decision. No Metro Council resolution called on THP to fill the gap and no political debate framed the decline as a THP jurisdictional question.",
+      "thp_surge_caveat": "The only documented large THP surge on named corridors (Nolensville Pike, Murfreesboro Pike, Thompson Lane) was the May 2025 THP-ICE 'Flood the Zone' immigration operation (~609 stops in one week) — not routine safety patrol.",
+      "data_gap": "THP does not publish Davidson County-specific annual stop counts. A direct THP baseline comparison is not currently possible."
+    },
+    "enforcement_halo_spatial": {
+      "finding": "Halos are real but narrow. A mobile camera deployment reduced speeds significantly adjacent to the camera but effects 'completely disappeared by 1,500 metres downstream' (Bates, Soole & Watson, QUT ePrints). Elvik 1997: mean speed rebounded 500 m past the camera ('kangaroo effect').",
+      "temporal": "Time halos: ~5 days after last enforcement action; speeds return to baseline within one week; no effect by the following month (NHTSA Countermeasures That Work).",
+      "sources": ["Bates, Soole & Watson, QUT ePrints", "Elvik 1997", "NHTSA Countermeasures That Work"]
+    },
+    "road_type_risk_perception": {
+      "finding": "Drivers hold road-type-specific risk perceptions, not a citywide average. NHTSA 2011 national survey: drivers expected tickets at 7.8 mph over on multi-lane interstates, 7.6 mph over on non-interstate multi-lanes, 7.0 mph over on city streets.",
+      "implication": "Behavioral erosion from losing enforcement on state arterials is concentrated on those arterials and ~500–1,500 m surroundings, not spread uniformly citywide. Losing arterial enforcement also degrades nearby residential streets (enforcement benefits diffuse in, not out — Campbell Systematic Reviews 2011, DOI: 10.4073/csr.2011.3)."
+    },
+    "aaa_foundation_2026_challenge": {
+      "finding": "AAA Foundation 2026 six-city study found Nashville did NOT show significant crash increases after its enforcement decline, in contrast to Minneapolis and Philadelphia.",
+      "significance": "DIRECT CHALLENGE to enforcement-collapse hypothesis. Must be noted alongside supporting evidence.",
+      "caveat": "Fayetteville 2020 finding (Injury Epidemiology) suggests TYPE of stop eliminated matters — investigatory vs safety-focused. MNPD stop breakdown by type is not publicly available, so it is unknown whether their eliminated stops were investigatory (which Fayetteville showed harmful to eliminate) or other.",
+      "url": "https://newsroom.aaa.com/2026/03/"
+    }
+  },
+
+  "gaps": {
+    "road_fatalities_2009": "2009 MNPD Annual Report not retrieved",
+    "road_fatalities_2012_annual_report": "MNPD 2012 Annual Report not listed on nashville.gov index; 2012 count estimated ~67 by back-calculation",
+    "mnpd_pedestrian_2023_official": "Walk Bike Nashville / WPLN series goes through 2022; 2023 official MNPD pedestrian count not separately confirmed",
+    "traffic_stop_by_road_type": "Form 252 PDFs (2016, 2020) do not break stops down by road type",
+    "traffic_stop_2017": "2017 stop total unconfirmed; between 298K (2016 Form 252) and 204K (2018 WPLN)",
+    "traffic_stop_before_after_hb786": "No published study or MNPD data measures stop volume before/after Tennessee HB0786 (July 1, 2021) — testable hypothesis in a literature gap",
+    "nashfatalcrash_pedestrian_classification": "Mechanism by which nashfatalcrash.com undercounts pedestrian deaths vs MNPD figures is unconfirmed",
+    "thp_davidson_county_stop_counts": "THP does not publish Davidson County-specific annual stop counts — cannot confirm whether THP filled any gap left by MNPD pullback",
+    "mnpd_stop_type_breakdown": "MNPD does not publish stop counts broken down by stop type (investigatory vs safety) — cannot apply Fayetteville finding to Nashville"
+  },
+
+  "key_signals_for_falsification": {
+    "enforcement_collapse_timeline": {
+      "claim": "MNPD stops fell 94.2% from 2012 peak (445,143) to 2022 nadir (25,679)",
+      "verbatim_source": "WKRN: 'nearly a 95% decrease from the 2012 peak of 445,143' and 'By 2022, stops had dropped to 25,679'",
+      "form_252_checkpoints": {"2016": "298,583 (verbatim Form 252)", "2020": "31,520 (verbatim Form 252)"},
+      "causal_claim_status": "Correlation documented; causation supported by Barbos 2025, Fliss 2020, Stanojevic 2013 — not a controlled Nashville-specific study"
+    },
+    "pedestrian_surge_exceeds_national": {
+      "claim": "Nashville 188% pedestrian death increase (2016-2022) vs national 29% — Nashville-specific explanation required",
+      "falsification_value": "Definitively rules out 'just a national trend'; infrastructure alone cannot explain timing since deficits predate the surge"
+    },
+    "hit_and_run_enforcement_signal": {
+      "claim": "Hit-and-run pedestrian deaths rose 21x (1 in 2017 → 21 in 2023) vs 7x for total pedestrian deaths",
+      "mechanism": "Berkeley SafeTREC: flight deterred by certainty of detection, not punishment severity — enforcement collapse directly predicts hit-and-run surge",
+      "falsification_value": "If enforcement collapse is NOT the driver, hit-and-run rate should track total pedestrian rate, not exceed it"
+    },
+    "hb786_compounding_factor": {
+      "claim": "Tennessee permitless carry (effective 2021-07-01) may have added a second deterrent to MNPD traffic stops on top of existing DWB-reform pullback",
+      "timing": "Pedestrian deaths jump from 39 (2021) to 49 (2022) — the year after HB786 took effect",
+      "status": "Plausible mechanism; no published study has measured this for Nashville specifically"
+    }
+  }
+}

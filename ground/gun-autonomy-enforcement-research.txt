@@ -1,0 +1,74 @@
+SOURCE FILE: Gun rights, driver autonomy, de-policing research — 2026-09-29
+
+=== PERMITLESS CARRY AND OFFICER SAFETY ===
+
+Doucette, M.L., Ward, J.A., McCourt, A.D., Webster, D., & Crifasi, C.K. (2022).
+Title: "Officer-Involved Shootings and Concealed Carry Weapons Permitting Laws: Analysis of Gun Violence Archive Data, 2014-2020."
+Journal: Journal of Urban Health (Springer), peer-reviewed
+DOI: https://link.springer.com/article/10.1007/s11524-022-00627-5
+Key verbatim: "Permitless CCW adopting states saw a 12.9% increase in officer-involved shooting victimization rate, or an additional 4 OIS victimizations per year, compared to what would have happened had law adoption not occurred."
+Design: Quasi-experimental, 10 states that loosened carry permitting 2014-2020 vs. 26 states that retained requirements.
+Mechanism relevant to traffic stops: ambient firearm uncertainty raises confrontational risk — directly relevant to officer willingness to initiate discretionary traffic stops.
+
+=== TENNESSEE PERMITLESS CARRY LEGISLATION ===
+
+Tennessee HB0786, 112th General Assembly.
+URL: https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0786&ga=112
+Signed: April 2021. Effective: July 1, 2021.
+Effect: Removes permit requirement for most adults to carry a loaded handgun, open or concealed.
+
+Law enforcement opposition on record: Tennessee Sheriff's Association, Tennessee Bureau of Investigation, Tennessee Chiefs of Police all formally opposed.
+
+Tennessee Lookout (March 2021):
+URL: https://tennesseelookout.com/2021/03/17/commentary-fighting-myths-with-facts-why-permitless-carry-is-bad-news-for-tennessee/
+Key verbatim: "Without the permit requirement, law enforcement has no way of differentiating between citizens lawfully carrying guns and people carrying guns who are prohibited from doing so by law."
+
+Memphis Police Department information page on compliance:
+URL: https://www.memphispolice.org/tn-permitless-carry/
+
+Tennessee duty-to-inform: Tennessee has NO statutory duty to inform a law enforcement officer that you are armed during a traffic stop.
+Source: https://www.ccwhub.com/states/tennessee/duty-to-inform
+Relevance: Officers stopping a vehicle in Tennessee cannot know whether occupants are armed; post-2021 they also cannot assume only permitted carriers are armed.
+
+GAP: No published study or MNPD internal data specifically measuring changes in Nashville traffic stop volume before/after July 1, 2021. The qualitative enforcement concern is documented; the quantitative effect on Nashville stop rates is not.
+
+=== FERGUSON EFFECT ON TRAFFIC STOPS — PEER-REVIEWED ===
+
+Shjarback, J.A., Pyrooz, D.C., Wolfe, S.E., & Decker, S.H. (2017).
+Title: "De-policing and crime in the wake of Ferguson: Racialized changes in the quantity and quality of policing among Missouri police departments."
+Journal: Journal of Criminal Justice, vol. 50, pp. 42-52
+DOI: https://doi.org/10.1016/j.jcrimjus.2017.04.003
+PDF: https://www.utep.edu/liberalarts/criminal-justice/_files/docs/shjarback-et-al.-2017-jcj.pdf
+Key finding: Approximately 67,000 fewer stops in 2015 compared to 2014 across 118 Missouri departments (-0.11 standardized change). Declines amplified in predominantly Black jurisdictions.
+
+Force Science Institute (2016) officer survey:
+URL: https://www.forcescience.com/2016/04/is-the-ferguson-effect-real-survey-says/
+Key reported finding: "Nearly half of patrol officers surveyed nationally say they have cut back on traffic and pedestrian stops." 49% reduced proactive traffic stops by 5-10 per month; 47% reduced pedestrian stops similarly.
+Caveat: Not peer-reviewed. Conducted by a law enforcement training firm. Methodology not published in journal. Useful for self-reported officer behavior only.
+
+Pew Research Center. "Behind the Badge." 2017.
+URL: https://www.police1.com/officer-safety/articles/pew-survey-officers-more-reluctant-to-use-force-make-stops-7Z1jq8dFPLpk5bV0/
+Key finding: Large nationally representative survey of officers found widespread reported reluctance to conduct stops post-Ferguson.
+
+=== FORMAL DE-POLICING POLICY AND TRAFFIC STOPS — PEER-REVIEWED ===
+
+Boehme, H.M. & Mourtgos, S.M. (2024).
+Title: "The effect of formal de-policing on police traffic stop behavior and crime: Early evidence from LAPD's policy to restrict discretionary traffic stops."
+Journal: Criminology & Public Policy, vol. 23, pp. 517-542
+DOI: https://doi.org/10.1111/1745-9133.12673
+URL: https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12673
+Key finding: After LAPD prohibited minor infraction pretextual stops (March 1, 2022), average weekly stops fell from ~5,439 to ~3,867 — approximately 1,572 fewer per week. Both violent and property crimes increased post-intervention. Property crime increase assessed as highly probable to be real.
+Directly applicable to: policy-level traffic enforcement pullback effects on crime outcomes.
+
+Nix, J. et al. (2024).
+Title: "When police pull back: Neighborhood-level effects of de-policing on violent and property crime."
+Journal: Criminology (published 2024)
+DOI: https://onlinelibrary.wiley.com/doi/10.1111/1745-9125.12363
+Also: https://digitalcommons.unomaha.edu/criminaljusticefacpub/304/
+Key finding: Using COVID-19 onset and George Floyd protests as exogenous shocks to Denver policing, reductions in stops and drug arrests associated with significant increases in violent and property crime. Traffic stops specifically: "officers made notably fewer traffic stops in 2020 — a huge departure from the norm — and the reduction had a much smaller relationship with changes in crime than pedestrian stops."
+
+=== GAPS HONESTLY STATED ===
+
+1. No peer-reviewed study establishes a direct link between political autonomy values and reduced traffic law compliance. That question is not empirically published.
+2. No study specifically measures traffic stop frequency in Tennessee or Nashville before/after HB786 (July 2021).
+3. No peer-reviewed study isolates police willingness to initiate traffic stops as the dependent variable under permitless carry specifically (Doucette measures OIS outcomes, not stop frequency).

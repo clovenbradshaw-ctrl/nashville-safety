@@ -1,0 +1,16 @@
+{
+  "title": "Enforcement lag and de-policing research — composite",
+  "sources": [
+    {"id": "barbos-2025", "doi": "10.1016/j.econlet.2025.112284", "url": "https://doi.org/10.1016/j.econlet.2025.112284", "published": "2025-04"},
+    {"id": "fliss-2020", "doi": "10.1186/s40621-019-0227-6", "url": "https://doi.org/10.1186/s40621-019-0227-6", "published": "2020-01"},
+    {"id": "nhtsa-facts-2024", "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813818"},
+    {"id": "ghsa-2023-prelim", "url": "https://www.ghsa.org/sites/default/files/2024-11/2023%20Pedestrian%20Traffic%20Fatalities%20by%20State.pdf", "published": "2024-11"},
+    {"id": "safetrec-hit-and-run", "url": "https://safetrec.berkeley.edu/publications/legal-deterrence-pedestrian-hit-and-run-collisions"},
+    {"id": "aaa-hit-and-run-2018", "url": "https://aaafoundation.org/wp-content/uploads/2018/04/18-0058_Hit-and-Run-Brief_FINALv2.pdf", "published": "2018"},
+    {"id": "aaa-hit-and-run-2026", "url": "https://newsroom.aaa.com/2026/03/fatal-hit-and-run-crashes-reach-record-high-aaa-foundation-study-finds/", "published": "2026-03"}
+  ],
+  "retrieved": "2026-09-29",
+  "extraction": "manual verbatim transcription; peer-reviewed papers are paywalled — DOI landing pages archived",
+  "txt_sha256": "59c3ea844e46bd8fc002688533fc634c6978460882f5d2ccbe7d08e891e2809a",
+  "chars": 5083
+}

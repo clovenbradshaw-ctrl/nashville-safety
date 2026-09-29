@@ -1,0 +1,73 @@
+SOURCE: Nashville-specific competing explanations research — 2026-09-29
+
+=== SPEED DATA ===
+
+TDOT 2023 Vulnerable Road User Safety Assessment (November 2023):
+URL: https://www.tn.gov/content/dam/tn/tdot/strategic/TDOT%202023%20VRU%20Safety%20Assessment%20Final%20w%20Appendix%2011-15-2023.pdf
+Key finding: "fatal and serious injury pedestrian and cyclist crashes increased by over 44% and 18%, respectively, from 2018 to 2022." Identifies "locations with higher speeds" as a high-risk area characteristic. Does NOT report measured speed changes over time.
+Gap: No time-series of actual travel speeds on Nashville streets from TDOT monitoring stations surfaced.
+
+Metro Nashville Collectors and Local Streets Speed Reduction Pilot Program (2024):
+URL: https://www.nashville.gov/sites/default/files/2024-04/NDOT-Collectors_and_LocalRoad_SpeedReductionPilotProgram-Executive_Summary.pdf
+Context: City changed many signs from 30 mph to 25 mph — implies prevailing speeds were a problem but no before/after measurements published.
+
+WKRN expert quote (2023): road design on Nashville's major pikes has "minimal interruptions allowing people to gain speeds quickly" and creates social pressure to drive fast.
+URL: https://www.wkrn.com/news/local-news/nashville/expert-says-road-design-fewer-traffic-stops-contribute-to-nashville-road-deaths/
+
+=== PEDESTRIAN INFRASTRUCTURE DEFICITS ===
+
+Walk Bike Nashville — Impossible Crossings report:
+URL: https://www.walkbikenashville.org/impossible_crossings
+Key verbatim: "80% of all pedestrians killed in Nashville are killed on state-controlled arterial streets with four or more lanes, speed limits over 30 mph and few safe pedestrian crossings."
+The Welshwood Drive / Nolensville Pike intersection alone had 7 people killed since 2010.
+
+Walk Bike Nashville — framing on sidewalk deficit:
+"the city is seventy years behind on building sidewalks because as residential development sprawled outwards post-WWII, the city was designed for cars instead of people."
+
+Metro Nashville Internal Audit of Sidewalk Prioritization (May 2024):
+URL: https://www.nashville.gov/sites/default/files/2024-05/IA-Report-Sidewalk-Prioritization-240516.pdf
+Status: Exists and publicly linked but verbatim findings not retrieved in this search.
+
+WalknBike 2022 plan only 23 miles of sidewalks for 2022-2024 against decades-long backlog.
+
+=== COVID EFFECT ON NASHVILLE TRAFFIC ===
+
+TDOT monitoring: Tennessee roadway volumes dropped roughly 40% in April 2020 vs. 2019.
+By September 2020 congestion returned to inner loops. By late 2020/early 2021, Nashville-area traffic ~5-10% below 2019 levels.
+
+PMC study: "Mobility Dynamics amid COVID-19 with a Case Study in Tennessee" (2023)
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10149353/
+Confirms volume drop pattern.
+
+Gap: No Nashville-specific data on whether speeds increased during low-volume COVID periods.
+
+=== NATIONAL VS NASHVILLE COMPARISON ===
+
+National: U.S. pedestrian fatalities rose from ~5,997 (2016) to 7,737 (2022) — approximately 29% increase.
+GHSA: pedestrian fatalities increased "at a pace nine times higher than population growth" between first halves of 2019 and 2022.
+URL: https://www.ghsa.org/sites/default/files/2024-11/2023%20Pedestrian%20Traffic%20Fatalities%20by%20State.pdf
+
+Nashville: Deaths rose from 17 (2016) to 39 (2020) to 49 (2022) — approximately 188% increase over 2016-2022 window.
+Nashville per-capita rate approximately 5.51 per 100,000 — exceeds national average and most peer Sun Belt cities except Houston and Dallas.
+
+Key comparison: Nashville's 188% increase vs national 29% increase over same window. Nashville's surge far outpaces national trend, requiring a Nashville-specific explanation. However Sun Belt cities with arterial-heavy road networks tracked similar above-average surges — infrastructure/design also competes as explanation.
+
+Tennessee statewide 2023: GHSA put TN at 173 pedestrian fatalities in 2023, rate of 1.36 per 100,000 vs national ~1.10-1.20 for comparable period.
+URL: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813727
+
+=== KEY NASHVILLE INVESTIGATIONS ===
+
+Nashville Banner (November 18, 2024): "Nashville traffic fatalities on the rise amid police enforcement decline."
+URL: https://nashvillebanner.com/2024/11/18/nashville-police-mostly-stopped-pulling-cars-over-but-some-councilmembers-want-to-reverse-the-trend/
+Key verbatim: traffic stops declined 91% from 2015 to 2023; "between 2018 and 2023, traffic fatalities increased by 75 percent as enforcement fell." Notes Policing Project study influenced MNPD's shift. Frames as correlation, not mechanism.
+NOTE: This is the strongest press investigation framing MNPD enforcement decline as proximate cause.
+
+WKRN (2023/2024): "Road design, fewer traffic stops contribute to Nashville road deaths, expert says."
+URL: https://www.wkrn.com/news/local-news/nashville/expert-says-road-design-fewer-traffic-stops-contribute-to-nashville-road-deaths/
+Key finding: Expert explicitly names BOTH road design AND reduced enforcement as contributing — frames them as complementary, not competing.
+
+Metro Council resolution (2025): enforcement "should include not only traffic stops and police presence to deter speeders, but also systemic improvements in street design, engineering, and policy."
+
+INFRASTRUCTURE COMPETITION WITH ENFORCEMENT HYPOTHESIS:
+Walk Bike Nashville verbatim: "80% of all pedestrians killed in Nashville are killed on state-controlled arterial streets with four or more lanes, speed limits over 30 mph and few safe pedestrian crossings."
+This is the strongest competing explanation: these infrastructure deficits predate the enforcement collapse AND the death surge. The deficits set the stage; the enforcement collapse may have removed the last active deterrent on those streets.

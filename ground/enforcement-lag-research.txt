@@ -1,0 +1,64 @@
+SOURCE 1: De-policing and fatal traffic crashes
+Authors: Barbos, Andrei
+Journal: Economics Letters
+Volume: 250
+Published: April 2025
+DOI: https://doi.org/10.1016/j.econlet.2025.112284
+Key finding (verbatim from abstract/description): "an impact of de-policing on fatal traffic crashes around the time of the first instances of such high-profile police killings from 2014, and then a much larger effect after 2020"
+Relevance: Natural experiment — enforcement dropped sharply after high-profile killings (Ferguson effect and post-2020 protests), crash deaths followed. Directly measures sustained enforcement reduction → fatal crash rate causally.
+
+---
+
+SOURCE 2: Re-prioritizing traffic stops to reduce motor vehicle crash outcomes and racial disparities
+Authors: Fliss, Mike Dolan; Baumgartner, Frank; Delamater, Paul; Marshall, Steve; Poole, Charles; Robinson, Whitney
+Journal: Injury Epidemiology
+Volume: 7
+Published: January 2020
+DOI: https://doi.org/10.1186/s40621-019-0227-6
+Key finding: Fayetteville NC shifted from investigatory to safety-focused stops. Result: traffic fatalities fell 28%, injurious crashes fell 23%, total crashes fell 13%.
+Relevance: Inverse natural experiment — shifting away from investigatory stops (what MNPD did) predicts the opposite trajectory. The Fayetteville result is the control arm.
+
+---
+
+SOURCE 3: Traffic Safety Impacts of Reduced Police-Motorist Interactions
+Publisher: AAA Foundation for Traffic Safety / Preusser Research Group
+URL: https://aaafoundation.org/research/traffic-safety-impacts-of-reduced-police-motorist-interactions/
+Key finding: Six-city case study. Chicago and Saint Paul each showed "a significant increase in fatal and serious injury crashes" coinciding with reductions in police-motorist interactions.
+Caveat: Publication year and full author list not confirmed from search results. Results were mixed across cities; not a clean causal proof.
+
+---
+
+SOURCE 4: Impact of law enforcement and increased traffic fines policy on road traffic fatality, injuries and offenses in Iran — Interrupted time series analysis
+Journal: PLOS ONE
+URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231182
+PMC: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164613/
+Key finding: Enforcement effects on fatalities emerged after approximately eight months. Also found "initial positive association between enforcement intensity and mortality rates" before longer-term benefit appeared (reactive surges after fatal events). Time-lag mechanism: ~8 months to onset of measurable effect.
+Important caveat: Iranian context. The 8-month figure measures the onset of enforcement BENEFIT, not the lag of deterioration after enforcement WITHDRAWAL. These are not symmetric; cannot assume reversal timing equals onset timing.
+
+---
+
+SOURCE 5: National pedestrian fatality trends
+NHTSA. "Pedestrians: 2024 Data." Traffic Safety Facts. URL: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813818
+GHSA. "Pedestrian Traffic Fatalities by State: 2023 Preliminary Data." URL: https://www.ghsa.org/sites/default/files/2024-11/2023%20Pedestrian%20Traffic%20Fatalities%20by%20State.pdf
+Key figures:
+- National pedestrian deaths: ~5,494 in 2015 to 7,593 in 2022 — approximately 38% national increase
+- National pedestrian death rate per 100,000: rose 50% from 2013 to 2022 (1.55 to 2.33)
+- Nashville pedestrian deaths (MNPD-sourced): 14 in 2010 to 49 in 2022 — approximately 250% increase over similar arc
+Nashville's trajectory far exceeds national trend. National trend cannot explain Nashville's surge; a Nashville-specific factor is required.
+
+---
+
+SOURCE 6: Hit-and-run and deterrence
+Berkeley SafeTREC. "On the Legal Deterrence of Pedestrian Hit-and-Run Collisions." URL: https://safetrec.berkeley.edu/publications/legal-deterrence-pedestrian-hit-and-run-collisions
+Key finding: "Drivers are less likely to flee if they believe detection is probable." Severity of legal punishment does not deter hit-and-run; certainty of detection does.
+
+AAA Foundation. "Hit-and-Run Crashes: Prevalence, Contributing Factors and Countermeasures." 2018. URL: https://aaafoundation.org/wp-content/uploads/2018/04/18-0058_Hit-and-Run-Brief_FINALv2.pdf
+
+AAA Foundation. "Fatal Hit-and-Run Crashes Reach Record High." 2026. URL: https://newsroom.aaa.com/2026/03/fatal-hit-and-run-crashes-reach-record-high-aaa-foundation-study-finds/
+Key finding: By 2023, hit-and-runs represented 15% of all police-reported crashes nationally, the highest share recorded.
+Relevance: Reduced patrol presence lowers perceived detection probability, raising flight risk. This is the mechanism linking enforcement collapse to the 21x hit-and-run pedestrian increase in Nashville.
+
+---
+
+HONEST GAPS from research:
+No peer-reviewed study precisely measures the time lag in YEARS between a sustained multi-year enforcement reduction and measurable pedestrian-specific fatality rise in a U.S. city. The Iran time-series gives 8 months for onset of enforcement benefit, but that is not the same as lag after withdrawal — asymmetry must be acknowledged.

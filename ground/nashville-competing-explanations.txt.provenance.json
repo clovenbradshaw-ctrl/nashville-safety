@@ -1,0 +1,13 @@
+{
+  "title": "Nashville pedestrian death competing explanations — composite",
+  "sources": [
+    {"id": "tdot-vru-2023", "url": "https://www.tn.gov/content/dam/tn/tdot/strategic/TDOT%202023%20VRU%20Safety%20Assessment%20Final%20w%20Appendix%2011-15-2023.pdf", "published": "2023-11"},
+    {"id": "wbn-impossible-crossings", "url": "https://www.walkbikenashville.org/"},
+    {"id": "metro-sidewalk-audit-2024", "url": "https://www.nashville.gov/sites/default/files/2024-05/IA-Report-Sidewalk-Prioritization-240516.pdf", "published": "2024-05"},
+    {"id": "wkrn-expert-road-design", "url": "https://www.wkrn.com/news/local-news/nashville/expert-says-road-design-fewer-traffic-stops-contribute-to-nashville-road-deaths/"}
+  ],
+  "retrieved": "2026-09-29",
+  "extraction": "manual verbatim transcription; includes COVID traffic comparison and national vs Nashville trend analysis",
+  "txt_sha256": "a45dfa038d26922429813e3af136845831c2503fa2efdc137059287190f0e0e0",
+  "chars": 5812
+}

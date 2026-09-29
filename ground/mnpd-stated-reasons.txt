@@ -1,0 +1,81 @@
+SOURCE FILE: MNPD stated reasons for traffic stop reduction — research 2026-09-29
+
+=== TIMELINE OF MNPD STOP REDUCTION ===
+
+Peak: ~445,143 stops in 2012.
+2018: ~204,400. 2019: ~55,667. 2022: 25,679 (nadir). Modest uptick began 2023.
+
+=== 2016 DRIVING WHILE BLACK REPORT — CHIEF ANDERSON RESPONSE ===
+
+Gideon's Army "Driving While Black" report released October 25, 2016. Analyzed two million stops.
+
+Chief Steve Anderson's official response (Nashville Scene, 2016):
+Anderson sent a letter to Metro Council "slamming the report, questioning its methodology and calling its conclusions 'morally disingenuous.'"
+He "categorically" denied that "racial profiling is an element of any MNPD policing strategies."
+Stated: "disparity… is not necessarily evidence of discrimination."
+MNPD said vehicle stops were part of its mission to create safety especially in "high crime areas," and the department "made no apologies for professionally and lawfully working in high crime areas to reduce victimization."
+Source: Nashville Scene — https://www.nashvillescene.com/news/pithinthewind/gideons-army-responds-to-police-chiefs-criticism-of-driving-while-black-report/article_90ba105c-e219-5a7c-b870-bf3196016e92.html
+
+KEY FINDING: Anderson's 2016 posture was defensive and dismissive. No official commitment to reduce stops came from that exchange.
+
+=== 2018 NYU POLICING PROJECT — RECOMMENDATIONS AND MNPD RESPONSE ===
+
+Policing Project at NYU School of Law / Stanford Computational Policy Lab, November 2018.
+URL: https://www.policingproject.org/news-main/Nashville-report-released
+Full report: https://static1.squarespace.com/static/58a33e881b631bc60d4f8b31/t/5bf2d18d562fa747a554f6b0/1542640014294/Policing+Project+Nashville+Report.pdf
+
+Key findings of report:
+- MNPD's high-volume traffic stops in high-crime neighborhoods had no significant effect on crime in the short or long term.
+- Notable racial disparities, highest for non-moving violations (broken taillights, expired tags).
+- Consent searches yielded no incriminating evidence 88.4% of the time.
+
+Recommendations to MNPD: Reduce number of traffic stops; acknowledge racial disproportionality; monitor ongoing disparities; redeploy officer resources toward more effective crime-fighting tools; consider Neighborhood Policing strategy.
+
+Chief Anderson response to Policing Project (WPLN, 2018):
+Anderson released "lengthy statement" that expressed "appreciation for the work of Professor Friedman and his team." Police "offered no direct rebuttal to findings that officers disproportionately stop and search the vehicles of Black drivers." Anderson invited "informed constructive critique."
+Source: WPLN — https://wpln.org/post/racial-disparities-go-undisputed-by-nashville-police-but-no-promise-made-on-traffic-stop-tactics/
+
+Training rewrite: "After NYU's researchers found that MNPD's traffic stops rarely turned up contraband, the department completely rewrote its training, with the focus shifting to stopping unsafe driving, not searches."
+Source: WPLN — https://wpln.org/post/nashville-police-report-major-drop-in-traffic-stops-following-accusations-of-racial-bias/
+
+Nashville.gov "Policing Project Commission Response" page: https://www.nashville.gov/departments/police/news-and-reports/policing-project-commission-response
+(Exists but full text not retrieved in this research.)
+
+=== MNPD SPOKESPERSON DON AARON — CLEAREST OFFICIAL ATTRIBUTION (2024) ===
+
+MNPD spokesperson Don Aaron, quoted in Nashville Banner November 18, 2024:
+"A Policing Project study concluded that large numbers of stops in high-crime neighborhoods were not impacting crime, and that directing officer resources to more productive strategies could potentially lead to greater crime reduction."
+Aaron also acknowledged: "traffic enforcement is a necessity given Nashville's growth and driving behaviors."
+Source: Nashville Banner — https://nashvillebanner.com/2024/11/18/nashville-police-mostly-stopped-pulling-cars-over-but-some-councilmembers-want-to-reverse-the-trend/
+
+KEY FINDING: The clearest official causal statement attributing the stop reduction to the Policing Project findings came from a spokesperson in 2024 — retrospectively, not in real time during the reduction years.
+
+=== POLICY MECHANISM — TRAINING REWRITE, NOT A PUBLISHED DIRECTIVE ===
+
+No specific general order or published directive found that explicitly de-emphasized traffic stops. The documented mechanism is a training rewrite dated to 2018. MNPD manual (June 2023) is publicly available but whether it contains explicit language deprioritizing volume stops was not confirmed.
+MNPD Manual PDF: https://www.nashville.gov/sites/default/files/2023-06/MNPD-Manual.pdf?ct=1686314607
+
+=== CHIEF JOHN DRAKE (TOOK OVER 2020) ===
+
+Drake's public framing emphasized "de-escalation and transparency." Clearest attributed statement: "traffic stops and writing tickets will continue, but fewer of them" — officers wrote 15,000 fewer citations than prior year.
+Source: WSMV, February 16, 2023 — https://www.wsmv.com/2023/02/16/de-escalation-transparency-nashville-police-chief-john-drake-shares-core-values-leading-department/
+
+No statement found in which Drake explicitly said the Policing Project or Driving While Black report drove his policy.
+
+=== METRO COUNCIL — 2024-2025 DEBATE ===
+
+Council Resolution 2024-873 urged MNPD and NDOT to increase traffic enforcement.
+
+Councilmember Jeff Eslick (sponsor): emphasized enforcement/fatality link.
+Councilmember Kyonzté Toombs (substitute): minority caucus "concerned about returning to a police strategy of mass traffic enforcement." Substitute called for prioritizing reckless driving, DUI, speeding, distracted driving "and to avoid returning to the biased enforcement highlighted" by the Driving While Black report.
+Mayor Freddie O'Connell: described as supporting increased enforcement efforts.
+Substituted resolution passed.
+Source: Nashville Scene — https://www.nashvillescene.com/news/pithinthewind/metro-council-traffic-stops-eslick/article_99ea37c8-d915-11ef-8f8c-1b74c1e0a1a9.html
+WKRN: https://www.wkrn.com/news/local-news/nashville/metro-council-passes-amended-version-of-traffic-enforcement-resolution/
+
+=== GAPS IN OFFICIAL RECORD ===
+
+1. No verbatim statement from Chief Anderson explicitly saying "we are reducing stops because of Driving While Black" or the Policing Project. His responses were defensive (2016) then appreciative-but-noncommittal (2018).
+2. No specific general order or written directive found explicitly deprioritizing traffic stop volume.
+3. No MNPD statement acknowledging connection between reduced stops and increased traffic fatalities. The traffic fatality connection has been made by journalists, council members, and advocacy groups — not MNPD itself.
+4. Policing Project Commission Response page on nashville.gov exists but full text not retrieved.

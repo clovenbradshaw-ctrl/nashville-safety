@@ -1,0 +1,41 @@
+Source: Accident Analysis & Prevention, Volume 52, 2013, Pages 29-38
+Title: Influence of traffic enforcement on the attitudes and behavior of drivers
+Authors: Predrag Stanojević, Dragan Jovanović, Timo Lajunen
+DOI: 10.1016/j.aap.2012.12.019
+Publisher: Elsevier
+Published: March 28, 2013
+Peer-reviewed: Yes (Accident Analysis & Prevention, 120 citations per Scopus)
+
+ABSTRACT:
+Traditionally, traffic enforcement has been an important means of improving traffic safety. Many studies have provided evidence of connections between the level of police enforcement and both driving behavior and the number of traffic accidents. In Northern Kosovo, there has been little, if any, traffic enforcement during the last 13 years. This situation has created a very rare research opportunity – it is now possible to directly study the influence of traffic enforcement on the attitudes and behavior of drivers by comparing two regions, one with traffic enforcement and one without it (Serbia vs. Northern Kosovo). The results indicated that the lack of enforcement affects almost every type of behavior that we examined. Compared with drivers in Serbia, drivers in Northern Kosovo drive faster, exceed speed limits more frequently, use seat belts less frequently, drive after exceeding the legal limit for alcohol more often, commit aggressive and ordinary violations more frequently and are generally involved in more risky situations.
+
+HIGHLIGHTS:
+The lack of enforcement affects almost every type of behavior we examined and attitudes toward speeding and the violation of traffic regulations.
+Drivers in no-enforcement area drive faster and violate the speed limit more frequently.
+Differences in seat belt use was associated with enforcement in the area.
+
+KEY PASSAGE ON NASHVILLE 1978 NATURAL EXPERIMENT (from Introduction):
+During 1978, the Nashville traffic police force had intensified enforcement activity for two months, but the members of it subsequently went on a short-term slow-down strike. Carr et al. (1980) report the results from that natural experiment. Examination of traffic accident data that were collected throughout these periods found that there were no changes in either the frequency of accidents that were reported or in the distribution of accident types involving property damage, personal injury, or fatalities. Hence, temporary lapses in traffic enforcement do not seem to have documented detrimental effects. However, in February of 1976, the Finnish police went on strike for approximately two weeks, during which police enforcement was completely suspended. Summala and Roine (1980) conducted a small observation study during the strike and found that there was only a slight increase in the mean speed, but the percentage of gross speed violations (>10 km/h) increased by 50 to 100%, and the standard deviation of the recorded speeds increased by approximately 20%, which suggests that the risk of traffic accidents was also elevated.
+
+KEY PASSAGE ON DURATION AND CULTURE CHANGE (from Introduction):
+It is worth noting that the situation in Northern Kosovo differs from the aforementioned situation in Nashville (Tennessee) and Finland in which the police force went on strike. In both Finland and Nashville, the special conditions with lacking traffic law enforcement lasted for relatively short periods of time and, thus, could not have effect on drivers' values and traffic culture. In Northern Kosovo, however, the long-term absence of law enforcement may truly change the manner in which people drive, and even their attitudes toward road safety.
+
+KEY PASSAGE ON HALO EFFECTS AND SUSTAINED ENFORCEMENT (from Introduction):
+The effects of enforcement are usually very short-lived. Road users tend to modify their behavior only in enforcement areas or in areas in which they anticipate the risk of being punished. Based on review of a large number of studies, Elliott and Broughton (2005) argued that the halo effect of police presence on driving speeds may last as little as 1 hour or as long as 8 weeks after the police activity has ceased. This suggests that sustained enforcement efforts are needed to influence drivers' behavior.
+
+CONCLUSION:
+In the present study, the comparisons based on self-reported behavior and field observations indicated that drivers in Northern Kosovo engage in significantly riskier driving behaviors than drivers in Serbia. Also, drivers in Northern Kosovo drive faster, exceed speed limits more frequently, use seat belts less frequently, drive after exceeding the legal limit for alcohol more often, commit both aggressive and ordinary violations more frequently and are more involved in risky situations.
+
+STUDY DESIGN NOTE:
+Sample: 424 drivers (204 from Serbia and 220 from Northern Kosovo). Data collected by mail from motor vehicle registry. Field observations of driving behavior also conducted.
+Northern Kosovo: 13 years with essentially no traffic enforcement at time of study (since 1999 NATO intervention).
+Serbia: normal enforcement.
+
+QUANTITATIVE ESTIMATES FROM PRIOR LITERATURE CITED IN PAPER:
+- Full compliance with traffic laws could reduce fatalities by up to 38% and injuries by 17% (Elvik et al., 1997)
+- Well-implemented sustained enforcement has led to 25% safety improvement (Zaidel, 2002)
+- Speed limits: increasing police control reduces average road speed by ~3 mph and reduces % exceeding speed limit by 3-64% (Elliott and Broughton, 2005)
+- Seatbelt enforcement: seat belt usage increased from 40% to 90% in Finland and Germany following enforcement (Valtonen, 1991, Heinrich, 1991)
+
+RELEVANCE TO NASHVILLE 2016-2022:
+The paper directly cites the 1978 Nashville police slowdown as a SHORT-TERM natural experiment showing no effect. The paper's key theoretical distinction: short-term lapses don't change driving CULTURE, but sustained multi-year enforcement absence does change attitudes and behavior durably. Nashville's enforcement collapse 2016-2022 (6+ years, 94% reduction in stops) falls in the "sustained absence" category, not the "temporary lapse" category. The 1978 Nashville experiment is not evidence against the current hypothesis.

@@ -1,0 +1,14 @@
+{
+  "title": "Gun rights, driver autonomy, and de-policing — composite",
+  "sources": [
+    {"id": "doucette-2022", "doi": "10.1007/s11524-022-00627-5", "url": "https://link.springer.com/article/10.1007/s11524-022-00627-5", "published": "2022"},
+    {"id": "tn-hb0786", "url": "https://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=HB0786&GA=112", "effective": "2021-07-01"},
+    {"id": "shjarback-2017", "doi": "10.1016/j.jcrimjus.2017.04.003", "url": "https://doi.org/10.1016/j.jcrimjus.2017.04.003", "published": "2017"},
+    {"id": "boehme-2024", "doi": "10.1111/1745-9133.12673", "url": "https://doi.org/10.1111/1745-9133.12673", "published": "2024"},
+    {"id": "nix-2024", "doi": "10.1111/1745-9125.12363", "url": "https://onlinelibrary.wiley.com/doi/10.1111/1745-9125.12363", "published": "2024"}
+  ],
+  "retrieved": "2026-09-29",
+  "extraction": "manual verbatim transcription; peer-reviewed papers are paywalled — DOI landing pages archived",
+  "txt_sha256": "0e5ff537f219497a397ef2f3f4391f7e1b84433b82d1687a02f2ca0d106ceb03",
+  "chars": 6112
+}

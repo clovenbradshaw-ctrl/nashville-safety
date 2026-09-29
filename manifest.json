@@ -1,0 +1,114 @@
+{
+  "city": "nashville-safety",
+  "name": "Nashville Road Safety — Enforcement, Deaths, Crime 2008–2026",
+  "built": "2026-09-29",
+  "note": "Ground files are verbatim-transcription text layers. Each has a .provenance.json sidecar. After running build-anchors.mjs, every verbatim quote has a byte-offset anchor into the archived source at archive.org — spn-results.json maps source URLs to snapshots, anchors.json maps each quote to {archive_url, byte_start, byte_end, text_fragment_url}.",
+  "docs": [
+    {
+      "id": "mnpd-annual-reports",
+      "title": "MNPD Annual Reports — Traffic Fatality Series 2008–2017",
+      "category": "official data",
+      "scale": "county",
+      "publisher": "Metro Nashville Police Department",
+      "coverage": "2008–2017",
+      "source": "ground/mnpd-annual-reports.txt",
+      "provenance": "ground/mnpd-annual-reports.txt.provenance.json",
+      "url": "https://www.nashville.gov/departments/police/news-and-reports/reports"
+    },
+    {
+      "id": "wpln-pedestrian-2022",
+      "title": "Nashville saw record pedestrian deaths in 2022 — WPLN News",
+      "category": "journalism",
+      "scale": "county",
+      "publisher": "WPLN News",
+      "published": "early 2023",
+      "source": "ground/wpln-pedestrian-2022.txt",
+      "provenance": "ground/wpln-pedestrian-2022.txt.provenance.json",
+      "url": "https://wpln.org/post/nashville-saw-a-record-number-of-pedestrian-deaths-in-2022-advocates-say-the-city-needs-to-treat-it-as-a-crisis/"
+    },
+    {
+      "id": "walk-bike-nashville",
+      "title": "Walk Bike Nashville — pedestrian fatalities and infrastructure analysis",
+      "category": "advocacy data",
+      "scale": "county",
+      "publisher": "Walk Bike Nashville",
+      "source": "ground/walk-bike-nashville.txt",
+      "provenance": "ground/walk-bike-nashville.txt.provenance.json",
+      "url": "https://www.walkbikenashville.org/"
+    },
+    {
+      "id": "nashville-banner-enforcement",
+      "title": "Nashville Banner / WKRN — traffic enforcement collapse investigation",
+      "category": "journalism",
+      "scale": "county",
+      "publisher": "Nashville Banner; WKRN",
+      "published": "2024-11-18",
+      "source": "ground/nashville-banner-enforcement.txt",
+      "provenance": "ground/nashville-banner-enforcement.txt.provenance.json",
+      "url": "https://nashvillebanner.com/2024/11/18/nashville-police-mostly-stopped-pulling-cars-over-but-some-councilmembers-want-to-reverse-the-trend/"
+    },
+    {
+      "id": "stanojevic-2013",
+      "title": "Influence of traffic enforcement on the attitudes and behavior of drivers",
+      "category": "peer-reviewed",
+      "scale": "literature",
+      "publisher": "Accident Analysis & Prevention",
+      "published": "2013-03-28",
+      "source": "ground/stanojevic-2013.txt",
+      "provenance": "ground/stanojevic-2013.txt.provenance.json",
+      "doi": "10.1016/j.aap.2012.12.019"
+    },
+    {
+      "id": "enforcement-lag-research",
+      "title": "Enforcement lag, de-policing, and crash outcomes — literature composite",
+      "category": "peer-reviewed composite",
+      "scale": "literature",
+      "source": "ground/enforcement-lag-research.txt",
+      "provenance": "ground/enforcement-lag-research.txt.provenance.json",
+      "contains": ["barbos-2025", "fliss-2020", "nhtsa-2024", "ghsa-2023", "safetrec", "aaa-2018", "aaa-2026"]
+    },
+    {
+      "id": "nashville-competing-explanations",
+      "title": "Nashville pedestrian deaths — competing explanations (infrastructure, national trend)",
+      "category": "composite",
+      "scale": "county",
+      "source": "ground/nashville-competing-explanations.txt",
+      "provenance": "ground/nashville-competing-explanations.txt.provenance.json",
+      "contains": ["tdot-vru-2023", "wbn-impossible-crossings", "metro-sidewalk-audit-2024", "wkrn-expert-road-design"]
+    },
+    {
+      "id": "gun-autonomy-enforcement-research",
+      "title": "Gun rights, driver autonomy, and de-policing — literature composite",
+      "category": "peer-reviewed composite",
+      "scale": "literature",
+      "source": "ground/gun-autonomy-enforcement-research.txt",
+      "provenance": "ground/gun-autonomy-enforcement-research.txt.provenance.json",
+      "contains": ["doucette-2022", "tn-hb0786", "shjarback-2017", "boehme-2024", "nix-2024"]
+    },
+    {
+      "id": "mnpd-stated-reasons",
+      "title": "MNPD and city officials — stated reasons for traffic stop reduction",
+      "category": "official statements",
+      "scale": "county",
+      "source": "ground/mnpd-stated-reasons.txt",
+      "provenance": "ground/mnpd-stated-reasons.txt.provenance.json",
+      "contains": ["anderson-2016", "policing-project-2018", "training-rewrite-2018", "don-aaron-2024", "council-resolution-2024-873"]
+    }
+  ],
+  "data": [
+    {
+      "id": "nashfatalcrash-csv",
+      "title": "Nashville Fatal Crash Tracker — full CSV 2017–2026",
+      "path": "data/nashfatalcrash.csv",
+      "url": "https://www.nashfatalcrash.com/table/fatal",
+      "retrieved": "2026-09-29",
+      "rows": 1022
+    },
+    {
+      "id": "sources-json",
+      "title": "nashville-safety-sources.json — master sources index",
+      "path": "data/sources.json",
+      "note": "Full structured source index with all verbatim citations and data tables"
+    }
+  ]
+}
