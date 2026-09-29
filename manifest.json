@@ -2,7 +2,7 @@
   "city": "nashville-safety",
   "name": "Nashville Road Safety — Enforcement, Deaths, Crime 2008–2026",
   "built": "2026-09-29",
-  "note": "Ground files are verbatim-transcription text layers. Each has a .provenance.json sidecar. After running build-anchors.mjs, every verbatim quote has a byte-offset anchor into the archived source at archive.org — spn-results.json maps source URLs to snapshots, anchors.json maps each quote to {archive_url, byte_start, byte_end, text_fragment_url}.",
+  "note": "Ground files are the local archive — verbatim transcriptions of source material. Each has a .provenance.json sidecar with source URLs and sha256. Ledger byte spans (ledger/nashville-safety.jsonl) are the authoritative anchors: each verbatim quote has a verified byte-offset span [start, end] into the local ground file. cdx-coverage.json records which source URLs already have Wayback snapshots (informational provenance only).",
   "docs": [
     {
       "id": "mnpd-annual-reports",

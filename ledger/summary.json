@@ -1,5 +1,5 @@
 {
-  "total": 13,
+  "total": 20,
   "perDoc": {
     "mnpd-annual-reports": {"rows": 2, "numbers": 2, "findings": 0, "statements": 0},
     "wpln-pedestrian-2022": {"rows": 1, "numbers": 1, "findings": 0, "statements": 0},
@@ -7,9 +7,9 @@
     "nashville-banner-enforcement": {"rows": 2, "numbers": 2, "findings": 0, "statements": 0},
     "stanojevic-2013": {"rows": 3, "numbers": 0, "findings": 3, "statements": 0},
     "enforcement-lag-research": {"rows": 1, "numbers": 0, "findings": 1, "statements": 0},
-    "nashville-competing-explanations": {"rows": 0, "numbers": 0, "findings": 0, "statements": 0},
-    "gun-autonomy-enforcement-research": {"rows": 0, "numbers": 0, "findings": 0, "statements": 0},
+    "nashville-competing-explanations": {"rows": 4, "numbers": 2, "findings": 2, "statements": 0},
+    "gun-autonomy-enforcement-research": {"rows": 3, "numbers": 1, "findings": 1, "legal-facts": 1},
     "mnpd-stated-reasons": {"rows": 3, "numbers": 0, "findings": 0, "statements": 3}
   },
-  "note": "competing-explanations and gun-autonomy docs not yet ledgered — byte offsets needed from build-anchors.mjs run"
+  "note": "all 9 ground docs ledgered; 20 total rows with verified byte offsets into local ground files"
 }

@@ -66,6 +66,8 @@
   ],
   "metrics": {
     "data_files": ["data/nashfatalcrash.csv", "data/sources.json"],
-    "anchor_files": ["spn-results.json", "anchors.json"]
+    "ledger": "ledger/nashville-safety.jsonl",
+    "ledger_rows": 20,
+    "cdx_coverage": "cdx-coverage.json"
   }
 }
